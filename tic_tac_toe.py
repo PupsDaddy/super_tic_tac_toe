@@ -1,1 +1,1 @@
-from src.game import Gamefrom src.infrastructure import Infrastructureif __name__ == "__main__":    print('1')    game = Game(Infrastructure())    game.loop()
+from src.game import Gamefrom src.infrastructure import Infrastructureif __name__ == "__main__":    game = Game(Infrastructure())    game.loop()
